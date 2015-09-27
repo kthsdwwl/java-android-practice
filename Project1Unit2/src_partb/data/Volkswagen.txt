@@ -1,0 +1,20 @@
+Volkswagen PASSAT;18445
+color;Fort Knox Gold Clearcoat Metallic;30
+color;Liquid Grey Clearcoat Metallic;30
+color;Infra-Red Clearcoat;0
+color;Grabber Green Clearcoat Metallic;0
+color;Sangria Red Clearcoat Metallic;0
+color;French Blue Clearcoat Metallic;0
+color;Twilight Blue Clearcoat Metallic;0
+color;CD Silver Clearcoat Metallic;0
+color;Pitch Black Clearcoat;0
+color;Cloud 9 White Clearcoat;0
+trasmission;automatic;0
+trasmission;standard;-815
+brakes;standard;0
+brakes;abs;400
+brakes;advance-abs;1630
+airbags;none;0
+airbags;selected;450
+power-moonroof;none;0
+power-moonroof;selected;595
