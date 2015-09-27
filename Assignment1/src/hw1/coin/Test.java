@@ -2,7 +2,7 @@
  * @author Xi Lin
  */
 
-package com.jsphdev.hw1.coin;
+package hw1.coin;
 
 public class Test {
 	public static void main(String[] args) {

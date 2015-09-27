@@ -2,7 +2,7 @@
  * @author Xi Lin
  */
 
-package com.jsphdev.hw1.parking;
+package hw1.parking;
 
 public class ParkingTicket {
 	
