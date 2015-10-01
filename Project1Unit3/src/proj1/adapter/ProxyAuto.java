@@ -76,7 +76,7 @@ public abstract class ProxyAuto {
 	}
 	
 	/**
-	 * Print the price of an option in a specific auto instance with the given name
+	 * Return the price of an option in a specific auto instance with the given name
 	 */
 	public synchronized float getOptionPrice(String modelName, String setName, String optionName) {
 		Automobile auto = autos.get(modelName);

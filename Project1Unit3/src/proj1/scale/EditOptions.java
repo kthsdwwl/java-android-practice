@@ -15,15 +15,17 @@ public class EditOptions implements Runnable {
 		this.targetOption = option;
 	}
 	
+	/**
+	 * Run a loop 5 times to increase the option price by 5
+	 */
 	public void run() {
-		float price = auto.getOptionPrice(targetModel, targetOptionSet, targetOption);
-		long id = Thread.currentThread().getId();
-		
 		synchronized (auto) {
+			float price = auto.getOptionPrice(targetModel, targetOptionSet, targetOption);
+			long id = Thread.currentThread().getId();
 			for (int i = 0; i < 5; ++i) {
 				++price;
 				auto.editOptionPrice(targetModel, targetOptionSet, targetOption, price);
-				System.out.println("Thread " + id + " changed the option price");
+				System.out.println("Thread " + id + " increased the option price");
 			}
 			
 			System.out.println("Thread " + id + " finished. The price is " 
