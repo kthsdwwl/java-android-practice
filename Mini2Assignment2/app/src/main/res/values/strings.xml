@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MortgageCalc</string>
+
+    <string name="pur_price">Purchase price:</string>
+    <string name="def_pur_price">300000</string>
+    <string name="dow_payment">Down payment:</string>
+    <string name="def_dow_payment">20</string>
+    <string name="mor_term">Mortgage term:</string>
+    <string name="def_mor_term">30</string>
+    <string name="int_rate">Interest rate:</string>
+    <string name="def_ini_rate">4.5</string>
+    <string name="pro_tax">Property tax:</string>
+    <string name="def_pro_tax">3000</string>
+    <string name="pro_insur">Property insurance:</string>
+    <string name="def_pro_insur">1500</string>
+    <string name="pmi">PMI:</string>
+    <string name="def_pmi">0.52</string>
+    <string name="zip">ZIP Code:</string>
+    <string name="def_zip">15217</string>
+    <string name="pay_date">First payment date:</string>
+    <string name="def_pay_date">2015-11</string>
+    <string name="change_date">change</string>
+    <string name="submit">CALCULATE</string>
+
+    <string name="dollar">$</string>
+    <string name="percent">%</string>
+    <string name="years">years</string>
+    <string name="dollar_per_year">$/year</string>
+    <string name="empty"> </string>
+</resources>
