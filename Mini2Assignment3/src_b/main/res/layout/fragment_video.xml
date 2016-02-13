@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/video1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/stop1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_toEndOf="@+id/video1_btn" />
+
+    <VideoView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/video1"
+        android:layout_below="@id/video1_btn"
+        android:layout_height="200dp"
+        android:layout_width="480dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/video2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/video1"
+        android:text="Play2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/stop2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_below="@id/video1"
+        android:layout_toEndOf="@id/video2_btn" />
+
+    <VideoView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/video2"
+        android:layout_height="200dp"
+        android:layout_width="480dp"
+        android:layout_below="@+id/video2_btn"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

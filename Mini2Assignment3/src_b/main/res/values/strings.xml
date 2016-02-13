@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Mini2Assignment3b</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_scrolling">Artist</string>
+    <string name="artist_name">Name: Westlife</string>
+    <string name="artist_birth">Birth: July 5, 1979</string>
+    <string name="artist_phone">Phone: (412) 111-111</string>
+    <string name="artist_email">kthsdwwl@gmail.com</string>
+    <string name="artist_website">Home Page</string>
+    <string name="artist_social">Social Network</string>
+    <string name="artist_like">Like</string>
+    <string name="artist_like_count">0</string>
+    <string name="artist_dislike">Dislike</string>
+    <string name="artist_dislike_count">0</string>
+
+    <string name="href_website">https://en.wikipedia.org/wiki/Westlife</string>
+    <string name="href_social">https://www.facebook.com/Westlife/</string>
+
+    <string name="song_btn">Songs</string>
+    <string name="video_btn">Videos</string>
+    <string name="wallpaper_btn">Wall Paper</string>
+    <string name="mail_btn">Send Mail</string>
+
+    <string name="title_activity_song">Songs</string>
+    <string name="song1_btn">Song1</string>
+    <string name="song2_btn">Song2</string>
+    <string name="song3_btn">Song3</string>
+
+    <string name="title_activity_video">Videos</string>
+
+    <string name="title_activity_wallpaper">Wallpaper</string>
+    <string name="wall1_btn">Image1</string>
+    <string name="wall2_btn">Image2</string>
+    <string name="wall3_btn">Image3</string>
+
+    <string name="title_activity_mail">Send mail</string>
+</resources>

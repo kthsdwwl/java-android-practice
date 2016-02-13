@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/text_tomail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail to: kthsdwwl@gmail.com"
+        android:textColor="@color/light_blue_400" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Subject:"
+        android:textColor="@color/light_blue_400" />
+
+    <EditText
+        android:id="@+id/edit_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Can you add me to mailing list" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Mail Content:"
+        android:textColor="@color/light_blue_400" />
+
+    <EditText
+        android:id="@+id/edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        android:text="Hi，I am your big fan, can you add me to your mailing list? Thanks.\n\nSincerely\nXi Lin"
+        android:gravity="top"
+        android:autoText="false" />
+
+    <Button
+        android:id="@+id/send_mail_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:text="Send" />
+
+
+</LinearLayout>
